@@ -1,0 +1,27 @@
+{
+  "name": "password",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "dev": "webpack-dev-server --mode development --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightDiscord/Password.git"
+  },
+  "author": "LightDiscord <root@arnaud.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightDiscord/Password/issues"
+  },
+  "homepage": "https://github.com/LightDiscord/Password#readme",
+  "devDependencies": {
+    "elm-webpack-loader": "^5.0.0",
+    "file-loader": "^2.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
